@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: recommender-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: recommender-app
+  template:
+    metadata:
+      labels:
+        app: recommender-app
+    spec:
+      containers:
+      - name: recommender-app-container
+        image: gcr.io/ferrous-syntax-463217-q5/recommender-project:latest
+        ports:
+        - containerPort: 5000  # Replace with the port your app listens on
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: recommender-app-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: recommender-app
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 5000
