@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM python:3.8-slim
 
 
 # Set environment variables to prevent Python from writing .pyc files & Ensure Python output is not buffered
@@ -33,3 +33,4 @@ EXPOSE 5000
 
 # Command to run the app
 CMD ["python", "application.py"]
+
