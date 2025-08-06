@@ -55,3 +55,27 @@
 2025-08-06 13:44:40,978 - INFO - Extracting weights for user_embedding
 2025-08-06 13:44:40,995 - INFO - Extracting weights for anime_embedding
 2025-08-06 13:44:41,101 - INFO - User and Anime weights saved sucesfully....
+2025-08-06 15:06:44,320 - INFO - DataProcessing Intialized
+2025-08-06 15:06:49,027 - INFO - Data loaded sucesfully for Data Processing
+2025-08-06 15:06:49,695 - INFO - Filtered users sucesfully...
+2025-08-06 15:06:54,887 - INFO - Scalind done for Processing 
+2025-08-06 15:06:55,421 - INFO - Encoding done for Users and Anime
+2025-08-06 15:06:58,230 - INFO - Data splitted sucesfullyy
+2025-08-06 15:06:58,293 - INFO - user2user_encoded saved sucesfully in processed directory
+2025-08-06 15:06:58,332 - INFO - user2user_decoded saved sucesfully in processed directory
+2025-08-06 15:06:58,406 - INFO - anim2anime_encoded saved sucesfully in processed directory
+2025-08-06 15:06:58,486 - INFO - anim2anime_decoded saved sucesfully in processed directory
+2025-08-06 15:07:21,521 - INFO - ALl the training testing data as well as rating_df is saved now..
+2025-08-06 15:07:35,944 - INFO - DF AND SYNOPSIS_Df saved sucesfullyy...
+2025-08-06 15:07:35,953 - INFO - Data Processing Pipeline Run sucesfully .... Congrats
+2025-08-06 15:07:45,469 - INFO - Model Training & COMET ML initialized..
+2025-08-06 15:07:47,971 - INFO - Data loaded sucesfully for Model Trainig
+2025-08-06 15:07:48,095 - INFO - Succesfully read the YAML file
+2025-08-06 15:07:48,095 - INFO - Loaded configuration from config.yaml
+2025-08-06 15:07:48,701 - INFO - Model created sucesfully....
+2025-08-06 15:21:35,300 - INFO - Model training Completedd.....
+2025-08-06 15:21:35,307 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-06 15:21:35,423 - INFO - Model saved to artifacts/model\model.h5
+2025-08-06 15:21:35,427 - INFO - Extracting weights for user_embedding
+2025-08-06 15:21:35,445 - INFO - Extracting weights for anime_embedding
+2025-08-06 15:21:35,576 - INFO - User and Anime weights saved sucesfully....

@@ -1,0 +1,5 @@
+[core]
+    remote = myr
+['remote "myr"']
+    url = gs://my-dvc-bucket116/
+
