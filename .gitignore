@@ -1,0 +1,7 @@
+venv/
+artifacts/raw/
+artifacts/processed/
+artifacts/model/model.h5
+artifacts/weights/
+artifacts/model_checkpoint/
+hybrid_anime_recommender_system.egg-info/
